@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import SongList from './SongList';
 
 
 const App=()=>{
-	return (
+	return(
 	<div>
-		App
+		<SongList/>
 	</div>
-
 	);
 }
 
